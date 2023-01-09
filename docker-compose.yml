@@ -19,11 +19,3 @@ services:
       - 8030:80
     environment:
       - PMA_ARBITRARY=1
-
-networks:
-  default:
-    driver: bridge
-
-volumes:
-  data:
-    driver: local
